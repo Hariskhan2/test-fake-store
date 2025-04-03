@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Fake Store
+
+This is a [Next.js](https://nextjs.org) e-commerce project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app). It features a fake store with product listings, a shopping cart, and category filtering.
 
 ## Getting Started
 
@@ -16,9 +18,16 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+You can start editing the page by modifying `src/app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+## Features
+
+- **Product Listings**: Browse a variety of products fetched from a fake store API.
+- **Shopping Cart**: Add, remove, and update product quantities in your cart.
+- **Category Filtering**: Filter products by categories.
+- **Responsive Design**: Optimized for both desktop and mobile devices.
 
 ## Learn More
 
